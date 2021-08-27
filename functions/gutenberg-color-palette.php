@@ -15,8 +15,13 @@ add_theme_support( 'editor-color-palette', array(
 	array(
 		'name'  => __( 'Primary', 'ea_genesis_child' ),
 		'slug'  => 'primary',
-		'color'	=> '#1d7d8c',
+		'color'	=> '#009FE3',
 	),
+    array(
+        'name'  => __( 'Secondary', 'ea_genesis_child' ),
+        'slug'  => 'secondary',
+        'color'	=> '#E4032E',
+    ),
 	array(
 		'name'  => __( 'Dark', 'ea_genesis_child' ),
 		'slug'  => 'dark',
@@ -25,7 +30,7 @@ add_theme_support( 'editor-color-palette', array(
 	array(
 		'name'	=> __( 'Medium', 'ea_genesis_child' ),
 		'slug'	=> 'medium',
-		'color'	=> '#6a7177',
+		'color'	=> '#7D8386',
 	),
 	array(
 		'name'  => __( 'Light', 'ea_genesis_child' ),

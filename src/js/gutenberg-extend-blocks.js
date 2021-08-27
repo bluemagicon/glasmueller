@@ -103,8 +103,8 @@ wp.blocks.registerBlockStyle( 'core/heading', {
 } );
 
 wp.blocks.registerBlockStyle( 'core/heading', {
-	name: 'h2',
-	label: 'H2-Optik'
+	name: 'h2-big-margin',
+	label: 'H2 großer Abstand'
 } );
 
 wp.blocks.registerBlockStyle( 'core/heading', {
@@ -125,6 +125,11 @@ wp.blocks.registerBlockStyle( 'core/heading', {
 wp.blocks.registerBlockStyle( 'core/heading', {
 	name: 'h6',
 	label: 'H6-Optik'
+} );
+
+wp.blocks.registerBlockStyle( 'core/heading', {
+	name: 'subheadline',
+	label: 'Subheadline'
 } );
 
 
