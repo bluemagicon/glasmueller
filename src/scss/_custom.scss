@@ -1,5 +1,28 @@
 
 /*** HEADLINES & BUTTONS ***/
+.vp-pagination__load-more{
+  background-color: $w-color-primary !important;
+  color: #fff !important;
+  font-size: .875em !important;
+  text-transform: none !important;
+  border-radius: 0 !important;
+  position: relative;
+  /*
+  &::before{
+    top: calc(50% - 6px);
+    left: .7em;
+    position: absolute;
+    content: '';
+    height: 12px;
+    width: 15px;
+    background-image: url("../../img/arrow-right-red.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+  }
+  */
+}
 .has-secondary-color{
   color: $w-color-secondary;
 }
