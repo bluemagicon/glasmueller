@@ -20,7 +20,7 @@ include 'post/load-vars.php';
 
         <?php if(! $hide_images) { ?>
             <a href="<?= get_permalink(); ?>">
-                <img src="<?= get_the_post_thumbnail_url(); ?>" alt="" />
+                <img src="<?= get_the_post_thumbnail_url(get_the_ID(), 'baw-s-quad'); ?>" alt="" />
             </a>
         <?php } ?>
 

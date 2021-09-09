@@ -165,7 +165,7 @@ function baw_init()
     // 1/3 Grid
     add_image_size('baw-s', 500, 500, false);
     add_image_size('baw-s-fix', 500, 317, array( 'center', 'center' ));
-    //add_image_size('baw-s-quad', 500, 500, array( 'center', 'center' ));
+    add_image_size('baw-s-quad', 500, 500, array( 'center', 'center' ));
 
     // 1/2 Grid
     add_image_size('baw-m', 750, 750, false);
