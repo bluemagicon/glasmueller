@@ -29,7 +29,7 @@ $page_support	= $override_support ?: $global_support;
 ?>
 
 
-<div class="footer-custom">
+<div class="footer-custom" id="footer">
     <div class="alignwide">
         <div class="contact-teaser uk-flex uk-flex-wrap uk-flex-between uk-flex-middle">
             <h2><strong>Wir freuen uns</strong> auf Sie.</h2>
